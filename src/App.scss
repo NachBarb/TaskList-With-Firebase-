@@ -25,13 +25,27 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
             border: 1px solid #dadada;
 
             h2 {
                 color: #008dd0;
                 letter-spacing: 10px;
             }
+        }
+
+        &_list {
+            padding: 0;
+            border-left: 1px solid #dadada;
+            border-right: 1px solid #dadada;
+            background-color: #fff;
+            max-height: calc(100vh - 400px);
+            overflow-y: scroll;
+
+            >h3 {
+                text-align: center;
+                padding: 20px 0;
+            }
+
         }
 
         &_input {
